@@ -1,0 +1,33 @@
+/* Hero.css */
+.hero-section {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Temporary background color */
+  background-image: url("./bk.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

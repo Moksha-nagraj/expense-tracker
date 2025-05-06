@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure full-width sections */
+.container {
+  width: 100%;
+  max-width: 1300px; /* Max width for larger screens */
+  margin: auto;
+  padding: 30px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #646464;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #000000;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Transaction History */
+.transaction-list {
+  margin-top: 20px;
+}
+
+.transaction-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-list li button {
+  background-color: #f44336;
+}
+
+.transaction-list li button:hover {
+  background-color: #e53935;
+}
+
+/* Add Transaction Form */
+/* Add Transaction Form */
+.add-transaction-form {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px; /* Uniform width for all forms */
+  margin: 0 auto; /* Center the form */
+}
+
+input,
+select {
+  width: 100%; /* Ensure all inputs and selects take full width */
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+input:focus,
+select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Balance Overview */
+.balance {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.balance h4 {
+  font-size: 18px;
+}
+
+.balance h1 {
+  font-size: 30px;
+  color: #333;
+}
+
+/* Income/Expense Overview */
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.inc-exp-container div {
+  text-align: center;
+}
+
+.money {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.money.plus {
+  color: green;
+}
+
+.money.minus {
+  color: red;
+}
